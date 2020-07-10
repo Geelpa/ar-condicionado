@@ -4,12 +4,12 @@
 }
 
 body {
-    background: linear-gradient(rgb(175, 224, 252)rgb(3, 157, 218)ow);
+    background-image: linear-gradient(to right , rgb(170, 233, 252), rgb(95, 196, 255));
     overflow: hidden;
 }
 
 #ar {
-    position: absolute;
+    position: fixed;
     top: 10%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -18,7 +18,7 @@ body {
 }
 
 #control {
-    position: absolute;
+    position: fixed;
     top: 85%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
