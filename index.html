@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar Condicionado</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    
+    
+  }
+  window.addEventListener("keydown", checkKeyPress, false);
+
+  function checkKeyPress(key) {
+      if (key.keyCode == 32, 13) {
+          var audio = document.getElementById("audio");
+          audio.play();
+      }
+  }
+
+  
+    </script>
+</head>
+<body>
+    <div id="ar">
+        <img src="./ar.png" alt="ar_condicionado">
+    </div>
+    <div id="control">
+        <button onclick="play()">
+            <img src="controle.png" alt="">
+        </button>
+        
+    </div>
+    <audio id="audio" src="sfx.mp3"></audio>
+</body>
+</html>

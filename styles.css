@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(156, 191, 245);
+    overflow: hidden;
+}
+
+#ar {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    
+}
+
+#control {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
