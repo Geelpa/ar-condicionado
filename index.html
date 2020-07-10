@@ -11,8 +11,11 @@
     <script>
         function play() {
     var audio = document.getElementById("audio");
-    audio.play();
-    
+    if (audio.paused) {
+        audio.play()
+      } else {
+        audio.currentTime = 0
+      } 
     
   }
   window.addEventListener("keydown", checkKeyPress, false);
