@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: rgb(195, 217, 248);
+    background: linear-gradient(rgb(175, 224, 252)rgb(3, 157, 218)ow);
     overflow: hidden;
 }
 
 #ar {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     
